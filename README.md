@@ -1,56 +1,80 @@
-# AI Chatbot App
+# Gemini AI Chatbot App
 
-This is a Flutter application that provides a conversational interface with an AI chatbot named Gemini. Users can interact with Gemini in real-time, view past messages, and send new messages.
+A Flutter-powered mobile application that delivers an interactive experience through an AI chatbot named **Gemini**. The app enables real-time conversations, stores message history locally, and offers a sleek user interface for seamless interaction.
 
-## Screenshot
+## 📸 Screenshot
 
-![Screenshot](assets/screenshots/app_demo.png)
+![App Demo](assets/screenshots/app_demo.png)
 
-## Features
+## ✨ Key Features
 
-- **Chat Interface**: Engage in interactive two-way communication with the AI chatbot.
-- **Chat History**: Access and review previous conversations with Gemini.
-- **Seamless Scrolling**: The chat screen automatically scrolls down to display the latest message, ensuring a smooth conversation flow.
-- **Local Data Storage**: The app utilizes Hive for storing chat messages or other app data locally on the device (depending on `hive` and `hive_flutter` dependencies).
+- **Interactive Chat Interface** – Have dynamic, two-way conversations with Gemini.
+- **Persistent Chat History** – Review and revisit past conversations at any time.
+- **Auto Scrolling** – New messages appear at the bottom with smooth automatic scrolling.
+- **Local Storage with Hive** – Utilizes Hive database for efficient offline storage of chats and other app data.
 
-## Dependencies
+## 📦 Dependencies
 
-- `flutter`: The core framework for building cross-platform mobile apps.
-- `cupertino_icons` (optional): Provides Cupertino icons for a more native-looking iOS style.
-- `flutter_dotenv` (optional): Enables loading environment variables from a `.env` file.
-- `flutter_markdown` : Allows displaying markdown content within your app.
-- `flutter_spinkit` (optional): Provides various loading spinners for visual feedback.
-- `google_generative_ai`: Integrates with Google's generative AI services for chatbot functionality.
-- `hive`: A NoSQL database for storing app data locally.
-- `hive_flutter`: Provides Flutter-specific bindings for using Hive.
-- `image_picker`: Enables picking images from the device's gallery or camera.
-- `path_provider`: Helps determine platform-specific file system paths for storing data.
-- `provider`: A state management solution for managing app data across widgets.
-- `uuid`: Generates Universally Unique Identifiers (UUIDs) for various purposes.
+| Package              | Purpose                                                                 |
+|----------------------|-------------------------------------------------------------------------|
+| `flutter`            | Core framework for building cross-platform mobile apps.                |
+| `cupertino_icons`    | Adds iOS-style icons (optional).                                        |
+| `flutter_dotenv`     | Loads environment variables from `.env` file (optional).                |
+| `flutter_markdown`   | Renders markdown content inside the Flutter app.                        |
+| `flutter_spinkit`    | Adds animated loading indicators (optional).                            |
+| `google_generative_ai` | Connects the app to Google’s Generative AI services.                  |
+| `hive`               | Lightweight NoSQL database for local storage.                           |
+| `hive_flutter`       | Flutter-specific adapter for Hive.                                      |
+| `image_picker`       | Lets users select images from gallery or camera.                        |
+| `path_provider`      | Identifies platform-specific paths for file storage.                    |
+| `provider`           | A simple yet powerful state management tool.                            |
+| `uuid`               | Generates unique IDs for messages or sessions.                          |
 
-## Development Setup
+## 🚀 Getting Started
 
-1. **Prerequisites**: Ensure you have Flutter and Dart installed on your development machine. You can follow the official installation guide at [Flutter Get Started](https://docs.flutter.dev/get-started/install).
-2. **Clone or Download the Project**: Obtain the project code, either by cloning the Git repository or downloading the source files.
-3. **Get Your Gemini API** [Go to google AI for Developers](https://ai.google.dev/) and get your Api Key
-4. **Run the App**: Navigate to the project directory in your terminal and execute `flutter run`.
+### 1. Prerequisites
+Ensure you have Flutter and Dart set up on your system. Follow the official installation guide:  
+👉 [Flutter Installation Guide](https://docs.flutter.dev/get-started/install)
 
-## Usage
+### 2. Clone the Repository
+Clone this repo or download the project files:
+```bash
+git clone https://github.com/your-username/ai-chatbot-app.git
+cd ai-chatbot-app
+```
 
-The home screen serves as the central navigation point for this AI chatbot app. Users can:
+### 3. Configure the API Key
+Head over to [Google AI for Developers](https://ai.google.dev/) to get your **Gemini API Key**.  
+Then, create a `.env` file in the root directory and add:
+```
+GEMINI_API_KEY=your_api_key_here
+```
 
-- View their chat history.
-- Engage in real-time chat with the chatbot.
-- Access their profile information and settings.
+### 4. Install Dependencies & Run
+Run the following commands:
+```bash
+flutter pub get
+flutter run
+```
 
-## Contributing
+## 📱 App Usage
 
-We encourage contributions to this project! If you have improvements or suggestions, feel free to create a pull request.
+Upon launch, the app presents a clean home screen that acts as the central hub. Users can:
+- Start or continue conversations with Gemini.
+- Scroll through and manage past messages.
+- Navigate to user profile and app settings.
 
-## License
+## 🤝 Contributing
 
-This project is licensed under the MIT License [check the LICENSE file for details](LICENSE).
+Contributions are always welcome!  
+If you have ideas, feature requests, or fixes, feel free to fork this project and open a pull request.
 
-## Author
+## 📄 License
 
-Aayush D.C Dangi (dcaayushd)
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full details.
+
+## 👤 Author
+
+**Aayush D.C Dangi**  
+GitHub: [@dcaayushd](https://github.com/dcaayushd)

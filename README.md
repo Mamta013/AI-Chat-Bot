@@ -2,9 +2,6 @@
 
 A Flutter-powered mobile application that delivers an interactive experience through an AI chatbot named **Gemini**. The app enables real-time conversations, stores message history locally, and offers a sleek user interface for seamless interaction.
 
-## 📸 Screenshot
-
-![App Demo](assets/screenshots/app_demo.png)
 
 ## ✨ Key Features
 
@@ -63,18 +60,3 @@ Upon launch, the app presents a clean home screen that acts as the central hub. 
 - Start or continue conversations with Gemini.
 - Scroll through and manage past messages.
 - Navigate to user profile and app settings.
-
-## 🤝 Contributing
-
-Contributions are always welcome!  
-If you have ideas, feature requests, or fixes, feel free to fork this project and open a pull request.
-
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for full details.
-
-## 👤 Author
-
-**Aayush D.C Dangi**  
-GitHub: [@dcaayushd](https://github.com/dcaayushd)
